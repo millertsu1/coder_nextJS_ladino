@@ -1,0 +1,10 @@
+.title{
+    color: steelblue;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.text{
+    font-size: 20px;
+    color: tomato;
+    font-style: italic;
+}
