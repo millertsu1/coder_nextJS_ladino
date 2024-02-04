@@ -40,13 +40,15 @@ const Header = () => {
             <nav className='flex justify-between gap-2'>
                 {
                   links.map(link=> {
-                    return <Link 
+                    return (
+                    <Link 
                     key={link.label} 
                     href={link.href} 
                     className={`${pathname === link.href ? 'font-bold': ''} text-base text-slate-100 p-3`}
                     >
                     {link.label}
                     </Link>
+                    )
                   })
                 }
             </nav>
