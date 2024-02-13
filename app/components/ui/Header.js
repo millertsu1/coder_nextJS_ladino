@@ -15,16 +15,13 @@ const links = [
   },
   {
     label: 'Blog',
-    href: '/blog'
+    href: '/posts'
   },
   {
     label: 'Contact',
     href: '/contact'
   },
-  /* {
-    label: 'Portfolio',
-    href: '/portfolio'
-  } */
+  
 ]
 
 const Header = () => {
